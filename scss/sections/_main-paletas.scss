@@ -1,0 +1,133 @@
+.paletas {
+    margin: auto;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+    max-width: 90vw;
+    text-align: center;
+
+    .h1 {
+        width: 100vw;
+        margin: 10px;
+
+
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas:
+            "producto1 producto2 producto3"
+            "producto4 producto5 producto6"
+            "producto7 producto8 producto9"
+            "producto10 producto11 producto12"
+            "producto13 producto14 producto14";
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.664);
+    }
+
+    .producto1 {
+        grid-area: producto1;
+    }
+
+    .producto2 {
+        grid-area: producto2;
+    }
+
+    .producto3 {
+        grid-area: producto3;
+    }
+
+    .producto4 {
+        grid-area: producto4;
+    }
+
+    .producto5 {
+        grid-area: producto5;
+    }
+
+    .producto6 {
+        grid-area: producto6;
+    }
+
+    .producto7 {
+        grid-area: producto7;
+    }
+
+    .producto8 {
+        grid-area: producto8;
+    }
+
+    .producto9 {
+        grid-area: producto9;
+    }
+
+    .producto10 {
+        grid-area: producto10;
+    }
+
+    .producto11 {
+        grid-area: producto11;
+    }
+
+    .producto12 {
+        grid-area: producto12;
+    }
+
+    .producto13 {
+        grid-area: producto13;
+    }
+
+    .producto14 {
+        grid-area: producto14;
+    }
+    
+    .loc {
+        margin: 10px;
+    }
+
+}
+
+
+
+
+
+@media(max-width:988px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+        grid-template-areas:
+            "producto1 producto2"
+            "producto3 producto4"
+            "producto5 producto6"
+            "producto7 producto8"
+            "producto9 producto10"
+            "producto11 producto12"
+            "producto13 producto14";
+    }
+}
+
+@media(max-width:715px) {
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(14, 1fr);
+        grid-template-areas:
+            "producto1"
+            "producto2"
+            "producto3"
+            "producto4"
+            "producto5"
+            "producto6"
+            "producto7"
+            "producto8"
+            "producto9"
+            "producto10"
+            "producto11"
+            "producto12"
+            "producto13"
+            "producto14";
+    }
+}

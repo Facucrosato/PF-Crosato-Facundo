@@ -1,0 +1,50 @@
+.index {
+    margin: 20px;
+    background-color: aliceblue;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .secciones-index {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: space-around;
+        width: 90vw;
+        margin: auto;
+        padding: 30px;
+
+        .section-comprar {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-evenly;
+            height: 600px;
+            background-image: linear-gradient(#3e3e3e 60%, #959595);
+            text-align: center;
+            min-width: 90vw;
+            color: black;
+            margin: 10px;
+
+            .negrita {
+                font-weight: bold;
+                padding: 15px;
+            }
+
+            .ol-comprar {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                text-align: center;
+
+            }
+        }
+
+
+    }
+
+
+}
