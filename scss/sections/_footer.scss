@@ -1,7 +1,7 @@
 .footer {
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(#3e3e3e 60%, #959595);
+    background-color:  #A8CDCC;
     min-height: 10vh;
 
     .redes,
@@ -11,8 +11,6 @@
     }
 
 }
-
-
 .redes {
     div {
         padding: 10px;
@@ -22,17 +20,27 @@
         margin: 10px;
     }
 
-    .redes a {
+     a {
         text-decoration: none;
         color: black;
     }
 }
-
-
-
 .terminos {
     p {
         margin: 10px;
+        a{text-decoration: none;
+            &:link{
+                color: rgb(0, 0, 0);
+            }
+            &:visited{
+                color: black;
+            }
+            &:active{
+                color: #0e514e;
+            }
+        }
     }
+    
 
 }
+

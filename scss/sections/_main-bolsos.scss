@@ -9,6 +9,7 @@
     box-sizing: unset;
     padding: 30px;
     text-align: center;
+    
 }
 
 .grid-container-bolsos {
@@ -24,8 +25,8 @@
     width: 800px;
     margin: auto;
     background-size: cover;
+    
 }
-
 .bolso1 {
     grid-area: bolso1;
 }
@@ -53,11 +54,6 @@
 .bolso7 {
     grid-area: bolso7;
 }
-
-.alineacion {
-    flex: none !important;
-}
-
 .altura {
     box-sizing: content-box !important;
     margin: 20px auto;
