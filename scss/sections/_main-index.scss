@@ -22,12 +22,13 @@
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 600px;
-    background-color:#90a6a6 ;
+    background-color:#90a6a6  ;
     text-align: center;
-    min-width: 95vw;
+    width: 95vw;
     color: black;
-    margin: 10px;}
+    margin:1rem auto;
+    height: 500px;
+}
 
 .negrita {
         font-weight: bold;
