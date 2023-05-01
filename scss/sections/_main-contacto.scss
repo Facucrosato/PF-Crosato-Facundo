@@ -1,12 +1,17 @@
-.contacto {
-    margin: 20px;
-    padding: 20px;
-    background-color: #90a6a6 ;
-    text-align: center;
+.main-contacto{
+     text-align: center;
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+   
+}
+.contacto {
+    
+    background-color: #90a6a6 ;
     color: black;
+    height: 550px;
     
 }
 .enviar-contacto {

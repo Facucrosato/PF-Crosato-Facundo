@@ -1,0 +1,22 @@
+.info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 80vw;
+    margin: 30px auto ;
+    font-family: $font-gen;
+    text-align: left;
+    
+    div{
+        p{
+            font-weight: 600;
+        }
+    }
+}
+h1 {
+    width: 100vw;
+    padding: 15px;
+    font-family: $font-gen;
+}

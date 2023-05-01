@@ -9,80 +9,81 @@
     max-width: 90vw;
     text-align: center;
 
-    .h1 {
+    &__titulo {
         width: 100vw;
         margin: 10px;
 
 
     }
 }
-
-.grid-container {
+.paletas__productos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 1fr);
     grid-template-areas:
-        "producto1 producto2 producto3"
-        "producto4 producto5 producto6"
-        "producto7 producto8 producto9"
-        "producto10 producto11 producto12"
-        "producto13 producto14 producto14";
+    "paletas__producto-1 paletas__producto-2 paletas__producto-3" 
+    "paletas__producto-4 paletas__producto-5 paletas__producto-6"
+    "paletas__producto-7 paletas__producto-8 paletas__producto-9"
+    "paletas__producto-10 paletas__producto-11 paletas__producto-12"
+    "paletas__producto-13 paletas__producto-14 paletas__producto-14";
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.664);
 }
-.producto1 {
-    grid-area: producto1;
+
+
+.paletas__producto-1 {
+    grid-area: paletas__producto-1;
 }
 
-.producto2 {
-    grid-area: producto2;
+.paletas__producto-2 {
+    grid-area:paletas__producto-2;
 }
 
-.producto3 {
-    grid-area: producto3;
+.paletas__producto-3 {
+    grid-area:paletas__producto-3;
 }
 
-.producto4 {
-    grid-area: producto4;
+.paletas__producto-4 {
+    grid-area:paletas__producto-4;
 }
 
-.producto5 {
-    grid-area: producto5;
+.paletas__producto-5 {
+    grid-area:paletas__producto-5;
 }
 
-.producto6 {
-    grid-area: producto6;
+.paletas__producto-6 {
+    grid-area:paletas__producto-6;
 }
 
-.producto7 {
-    grid-area: producto7;
+.paletas__producto-7 {
+    grid-area:paletas__producto-7;
 }
 
-.producto8 {
-    grid-area: producto8;
+.paletas__producto-8 {
+    grid-area:paletas__producto-8;
 }
 
-.producto9 {
-    grid-area: producto9;
+.paletas__producto-9 {
+    grid-area:paletas__producto-9;
 }
 
-.producto10 {
-    grid-area: producto10;
+.paletas__producto-10 {
+    grid-area: paletas__producto-10;
 }
 
-.producto11 {
-    grid-area: producto11;
+.paletas__producto-11 {
+    grid-area: paletas__producto-11;
 }
 
-.producto12 {
-    grid-area: producto12;
+.paletas__producto-12 {
+    grid-area: paletas__producto-12;
 }
 
-.producto13 {
-    grid-area: producto13;
+.paletas__producto-13 {
+    grid-area: paletas__producto-13;
 }
 
-.producto14 {
-    grid-area: producto14;
+.paletas__producto-14 {
+    grid-area: paletas__producto-14;
 }
 
 .loc {
@@ -92,38 +93,40 @@
 
 
 @media(max-width:988px) {
-    .grid-container {
+    .paletas__productos {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(7, 1fr);
         grid-template-areas:
-            "producto1 producto2"
-            "producto3 producto4"
-            "producto5 producto6"
-            "producto7 producto8"
-            "producto9 producto10"
-            "producto11 producto12"
-            "producto13 producto14";
+            "paletas__producto-1 paletas__producto-2"
+            "paletas__producto-3 paletas__producto-4"
+            "paletas__producto-5 paletas__producto-6"
+            "paletas__producto-7 paletas__producto-8"
+            "paletas__producto-9 paletas__producto-10"
+            "paletas__producto-11 paletas__producto-12"
+            "paletas__producto-13 paletas__producto-14";
     }
 }
 
 @media(max-width:715px) {
-    .grid-container {
+    .paletas__productos {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(14, 1fr);
         grid-template-areas:
-            "producto1"
-            "producto2"
-            "producto3"
-            "producto4"
-            "producto5"
-            "producto6"
-            "producto7"
-            "producto8"
-            "producto9"
-            "producto10"
-            "producto11"
-            "producto12"
-            "producto13"
-            "producto14";
+            "paletas__producto-1"
+            "paletas__producto-2"
+            "paletas__producto-3"
+            "paletas__producto-4"
+            "paletas__producto-5"
+            "paletas__producto-6"
+            "paletas__producto-7"
+            "paletas__producto-8"
+            "paletas__producto-9"
+            "paletas__producto-10"
+            "paletas__producto-11"
+            "paletas__producto-12"
+            "paletas__producto-13"
+            "paletas__producto-14";
     }
+
+    ;
 }
