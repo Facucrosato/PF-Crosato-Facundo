@@ -8,11 +8,16 @@
     margin: 30px auto ;
     font-family: $font-gen;
     text-align: left;
+    padding: 5px;
     
     div{
         p{
             font-weight: 600;
         }
+    }
+    a{
+        color: black;
+        font-size: 30px;
     }
 }
 h1 {
