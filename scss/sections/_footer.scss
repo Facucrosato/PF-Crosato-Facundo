@@ -1,50 +1,56 @@
 .footer {
     display: flex;
     justify-content: center;
-    background-color:  #A8CDCC;
+    background-color: #A8CDCC;
     min-height: 10vh;
     text-align: center;
-    
+
 
     &__redes,
-    &__terminos{
+    &__terminos {
         display: flex;
         justify-content: space-around;
     }
 
-  
+
 }
-.footer__redes{
+
+.footer__redes {
     div {
         padding: 1rem;
         border-radius: 100%;
-        // background-color: white;
+
         color: black;
         margin: 1rem;
         font-size: 40px;
     }
 
-     a {
+    a {
         text-decoration: none;
         color: black;
     }
 }
+
 .footer__terminos {
     p {
         margin: 10px;
-        a{text-decoration: none;
-            &:link{
+
+        a {
+            text-decoration: none;
+
+            &:link {
                 color: rgb(0, 0, 0);
             }
-            &:visited{
+
+            &:visited {
                 color: black;
             }
-            &:active{
+
+            &:active {
                 color: #0e514e;
             }
         }
     }
-    
+
 
 }
-

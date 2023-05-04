@@ -1,27 +1,57 @@
-.info{
+.info {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     min-width: 80vw;
-    margin: 30px auto ;
+    margin: 30px auto;
     font-family: $font-gen;
     text-align: left;
     padding: 5px;
-    
-    div{
-        p{
+
+    div {
+        p {
             font-weight: 600;
         }
     }
-    a{
+
+    a {
         color: black;
         font-size: 30px;
     }
 }
+
 h1 {
     width: 100vw;
     padding: 15px;
     font-family: $font-gen;
+}
+
+.card {
+    width: 18rem;
+    border-color: black;
+    border-width: 2px;
+}
+
+.btn {
+    color: black;
+    background-color: #90a6a6;
+    border-color: black;
+    border-radius: 1rem;
+    border-width: 2px;
+
+    &:hover {
+        background-color: #90a6a6;
+        border-color: black;
+        color: black;
+    }
+}
+
+.btn-primary {
+    &:active {
+        border-color: #90a6a6 !important;
+        background-color: #A8CDCC !important;
+        color: black !important;
+    }
 }

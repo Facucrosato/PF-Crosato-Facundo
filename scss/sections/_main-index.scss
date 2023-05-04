@@ -7,6 +7,7 @@
     align-items: center;
     flex-wrap: wrap;
 }
+
 .secciones-index {
     display: flex;
     flex-direction: row;
@@ -17,35 +18,38 @@
     margin: auto;
     padding: 30px;
 }
+
 .section-comprar {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color:#90a6a6  ;
+    background-color: #90a6a6;
     text-align: center;
     width: 95vw;
     color: black;
-    margin:1rem auto;
+    margin: 1rem auto;
     height: 500px;
 }
 
 .negrita {
-        font-weight: bold;
-        padding: 15px;
-    }
+    font-weight: bold;
+    padding: 15px;
+}
 
 .ol-comprar {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
-    }
-.loc {
-        margin: 10px;
-    }
-main img {
-   
-    width: 100vw;
-    margin: auto; }
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
 
+.loc {
+    margin: 10px;
+}
+
+main img {
+
+    width: 100vw;
+    margin: auto;
+}

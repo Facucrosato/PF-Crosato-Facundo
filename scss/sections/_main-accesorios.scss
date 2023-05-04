@@ -6,8 +6,9 @@
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 30px;
-    text-align: center; 
+    text-align: center;
 }
+
 .container-accesorios {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -19,46 +20,47 @@
         "accesorio10 accesorio10 accesorio10";
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.664);
     margin: auto;
-   
+
     .loc {
         margin: 10px;
     }
+
     .accesorio1 {
         grid-area: accesorio1;
     }
-    
+
     .accesorio2 {
         grid-area: accesorio2;
     }
-    
+
     .accesorio3 {
         grid-area: accesorio3;
     }
-    
+
     .accesorio4 {
         grid-area: accesorio4;
     }
-    
+
     .accesorio5 {
         grid-area: accesorio5;
     }
-    
+
     .accesorio6 {
         grid-area: accesorio6;
     }
-    
+
     .accesorio7 {
         grid-area: accesorio7;
     }
-    
+
     .accesorio8 {
         grid-area: accesorio8;
     }
-    
+
     .accesorio9 {
         grid-area: accesorio9;
     }
-    
+
     .accesorio10 {
         grid-area: accesorio10;
     }

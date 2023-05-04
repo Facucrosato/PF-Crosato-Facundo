@@ -1,16 +1,17 @@
-
-.navbar{
+.navbar {
     background-color: #A8CDCC;
-    .navbar-brand{
+
+    .navbar-brand {
         font-family: $nav-font;
-     font-weight: 600;}
-    
-    .ancho{
+        font-weight: 600;
+    }
+
+    .ancho {
         max-width: 850px;
     }
-    
-    .navbar-collapse{
+
+    .navbar-collapse {
         justify-content: flex-end;
-        
+
     }
 }

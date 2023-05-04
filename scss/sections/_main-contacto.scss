@@ -1,32 +1,39 @@
-.main-contacto{
-     text-align: center;
+.main-contacto {
+    text-align: center;
     display: flex;
     align-items: center;
     flex-direction: column;
     margin: 20px;
     padding: 20px;
-   
+
 }
+
 .contacto {
-    
-    background-color: #90a6a6 ;
+
+    background-color: #90a6a6;
     color: black;
     height: 550px;
-    
+
 }
+
 .enviar-contacto {
     width: 80px;
+    border-radius: 1rem;
+    border-color: black;
+
     &:focus {
-        background-color:  #0e514e;
+        background-color: #0e514e;
         transform: scale(1.01);
         font-weight: bold;
         transition: .3s;
     }
 }
 
-.input2{
+.input2 {
+    border-radius: 1rem;
+
     &:hover {
-        background-color: antiquewhite;
+        background-color: #A8CDCC;
         transform: scale(1.01);
         transition: .3s;
     }

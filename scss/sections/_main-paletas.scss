@@ -16,16 +16,17 @@
 
     }
 }
+
 .paletas__productos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 1fr);
     grid-template-areas:
-    "paletas__producto-1 paletas__producto-2 paletas__producto-3" 
-    "paletas__producto-4 paletas__producto-5 paletas__producto-6"
-    "paletas__producto-7 paletas__producto-8 paletas__producto-9"
-    "paletas__producto-10 paletas__producto-11 paletas__producto-12"
-    "paletas__producto-13 paletas__producto-14 paletas__producto-14";
+        "paletas__producto-1 paletas__producto-2 paletas__producto-3"
+        "paletas__producto-4 paletas__producto-5 paletas__producto-6"
+        "paletas__producto-7 paletas__producto-8 paletas__producto-9"
+        "paletas__producto-10 paletas__producto-11 paletas__producto-12"
+        "paletas__producto-13 paletas__producto-14 paletas__producto-14";
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.664);
 }
 
@@ -35,35 +36,35 @@
 }
 
 .paletas__producto-2 {
-    grid-area:paletas__producto-2;
+    grid-area: paletas__producto-2;
 }
 
 .paletas__producto-3 {
-    grid-area:paletas__producto-3;
+    grid-area: paletas__producto-3;
 }
 
 .paletas__producto-4 {
-    grid-area:paletas__producto-4;
+    grid-area: paletas__producto-4;
 }
 
 .paletas__producto-5 {
-    grid-area:paletas__producto-5;
+    grid-area: paletas__producto-5;
 }
 
 .paletas__producto-6 {
-    grid-area:paletas__producto-6;
+    grid-area: paletas__producto-6;
 }
 
 .paletas__producto-7 {
-    grid-area:paletas__producto-7;
+    grid-area: paletas__producto-7;
 }
 
 .paletas__producto-8 {
-    grid-area:paletas__producto-8;
+    grid-area: paletas__producto-8;
 }
 
 .paletas__producto-9 {
-    grid-area:paletas__producto-9;
+    grid-area: paletas__producto-9;
 }
 
 .paletas__producto-10 {
