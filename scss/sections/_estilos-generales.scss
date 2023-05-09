@@ -23,15 +23,20 @@
 }
 
 h1 {
-    width: 100vw;
+    margin: auto;
     padding: 15px;
     font-family: $font-gen;
+    font-weight: bold;
 }
 
 .card {
     width: 18rem;
     border-color: black;
     border-width: 2px;
+    &:hover{
+        transform: scale(1.03);
+        transition: .2s;
+    }
 }
 
 .btn {
@@ -54,4 +59,8 @@ h1 {
         background-color: #A8CDCC !important;
         color: black !important;
     }
+}
+.negrita {
+    font-weight: bold;
+    padding: 15px;
 }

@@ -1,5 +1,5 @@
 .index {
-    margin: 20px;
+    
     background-color: aliceblue;
     text-align: center;
     margin: auto;
@@ -26,16 +26,13 @@
     justify-content: space-evenly;
     background-color: #90a6a6;
     text-align: center;
-    width: 95vw;
+    width: 90vw;
     color: black;
     margin: 1rem auto;
     height: 500px;
+    border-radius: 10px;
 }
 
-.negrita {
-    font-weight: bold;
-    padding: 15px;
-}
 
 .ol-comprar {
     display: flex;

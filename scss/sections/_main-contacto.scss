@@ -3,16 +3,19 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 20px;
-    padding: 20px;
-
+    border-radius: 10px;
+    max-width: 90vw;
+    margin: auto;
 }
 
 .contacto {
-
+    padding: 30px;
     background-color: #90a6a6;
     color: black;
-    height: 550px;
+    min-width: 90vw;
+    margin-top: 20px;
+    border-radius: 10px;
+    
 
 }
 
