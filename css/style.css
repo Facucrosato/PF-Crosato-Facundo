@@ -14,6 +14,10 @@
   .navbar .navbar-collapse {
     justify-content: flex-end; }
 
+.nav-item:hover {
+  text-decoration: underline;
+  transform: scale(1.04); }
+
 .footer {
   display: flex;
   justify-content: center;
@@ -91,10 +95,10 @@ main img {
   margin: auto; }
 
 .canje {
+  margin-top: 20px;
   text-align: center;
   max-width: 90vw;
   margin: auto;
-  padding: 20px;
   color: black; }
   .canje img {
     max-width: 45%;
@@ -112,7 +116,8 @@ main img {
   justify-content: space-around;
   background-color: #cee7e7cd;
   border-radius: 5px;
-  margin: auto; }
+  margin: auto;
+  padding: 10px; }
 
 .canje__seccion {
   max-width: 90vw;
