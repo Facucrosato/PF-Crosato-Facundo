@@ -222,58 +222,63 @@ main img {
     grid-template-rows: repeat(14, 1fr);
     grid-template-areas: "paletas__producto-1" "paletas__producto-2" "paletas__producto-3" "paletas__producto-4" "paletas__producto-5" "paletas__producto-6" "paletas__producto-7" "paletas__producto-8" "paletas__producto-9" "paletas__producto-10" "paletas__producto-11" "paletas__producto-12" "paletas__producto-13" "paletas__producto-14"; } }
 
-.bolsos {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-around;
+.quienes-somos {
   max-width: 90vw;
   margin: auto;
-  min-height: 85vh;
-  box-sizing: unset;
-  padding: 30px;
-  text-align: center; }
+  color: black; }
 
-.grid-container-bolsos {
+.quienes__section {
+  text-align: center;
+  background-color: #90a6a6;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px; }
+
+.quienes__info {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  grid-template-areas: "bolso1 bolso2" "bolso3 bolso4" "bolso5 bolso6" "bolso7 bolso7";
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.664);
-  width: 800px;
-  margin: auto;
-  background-size: cover; }
+  grid-template-areas: "img1 p1" "p2 img2" "img3 p3" "p4 p4";
+  padding: 30px;
+  align-items: center;
+  margin: auto; }
+  .quienes__info img {
+    width: 30vw;
+    border-radius: 10px;
+    overflow: hidden; }
 
-.bolso1 {
-  grid-area: bolso1; }
+.img1 {
+  grid-area: img1; }
 
-.bolso2 {
-  grid-area: bolso2; }
+.img2 {
+  grid-area: img2; }
 
-.bolso3 {
-  grid-area: bolso3; }
+.img3 {
+  grid-area: img3; }
 
-.bolso4 {
-  grid-area: bolso4; }
+.p1 {
+  grid-area: p1; }
 
-.bolso5 {
-  grid-area: bolso5; }
+.p2 {
+  grid-area: p2; }
 
-.bolso6 {
-  grid-area: bolso6; }
+.p3 {
+  grid-area: p3; }
 
-.bolso7 {
-  grid-area: bolso7; }
+.p4 {
+  grid-area: p4;
+  font-size: 25px; }
 
-.altura {
-  box-sizing: content-box !important;
-  margin: 20px auto; }
-
-@media (max-width: 730px) {
-  .grid-container-bolsos {
+@media (max-width: 1010px) {
+  .quienes__info {
+    padding: 0;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(7, 1fr);
-    grid-template-areas: "bolso1" "bolso2" "bolso3" "bolso4" "bolso5" "bolso6" "bolso7"; } }
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: "img1" "p1" "p2" "p3" "p4" "img3"; }
+    .quienes__info img {
+      width: 200px; }
+  .img2 {
+    display: none; } }
 
 .main-contacto {
   text-align: center;
@@ -285,12 +290,17 @@ main img {
   margin: auto; }
 
 .contacto {
+  text-align: center;
   padding: 30px;
   background-color: #90a6a6;
   color: black;
   min-width: 90vw;
   margin-top: 20px;
-  border-radius: 10px; }
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
 
 .enviar-contacto {
   width: 80px;
@@ -308,6 +318,10 @@ main img {
     background-color: #A8CDCC;
     transform: scale(1.01);
     transition: .3s; }
+
+@media (max-width: 1000px) {
+  .contacto__mapa {
+    display: none; } }
 
 .info {
   display: flex;
@@ -357,5 +371,4 @@ h1 {
   color: black !important; }
 
 .negrita {
-  font-weight: bold;
-  padding: 15px; }
+  font-weight: bold; }

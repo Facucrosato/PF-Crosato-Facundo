@@ -9,14 +9,17 @@
 }
 
 .contacto {
+    text-align: center;
     padding: 30px;
     background-color: #90a6a6;
     color: black;
     min-width: 90vw;
     margin-top: 20px;
     border-radius: 10px;
-    
-
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .enviar-contacto {
@@ -41,4 +44,13 @@
         transition: .3s;
     }
 
+}
+
+
+
+@media(max-width:1000px) {
+    .contacto__mapa {
+        display: none;
+    }
+   
 }
