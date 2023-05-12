@@ -20,6 +20,11 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    &__formu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .enviar-contacto {
@@ -35,8 +40,10 @@
     }
 }
 
+
 .input2 {
     border-radius: 1rem;
+    margin: 1rem;
 
     &:hover {
         background-color: #A8CDCC;

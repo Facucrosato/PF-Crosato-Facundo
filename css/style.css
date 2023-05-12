@@ -301,6 +301,10 @@ main img {
   display: flex;
   flex-direction: row;
   justify-content: space-around; }
+  .contacto__formu {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
 
 .enviar-contacto {
   width: 80px;
@@ -313,7 +317,8 @@ main img {
     transition: .3s; }
 
 .input2 {
-  border-radius: 1rem; }
+  border-radius: 1rem;
+  margin: 1rem; }
   .input2:hover {
     background-color: #A8CDCC;
     transform: scale(1.01);
