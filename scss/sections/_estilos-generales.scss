@@ -33,7 +33,8 @@ h1 {
     width: 18rem;
     border-color: black;
     border-width: 2px;
-    &:hover{
+
+    &:hover {
         transform: scale(1.03);
         transition: .2s;
     }
@@ -60,6 +61,7 @@ h1 {
         color: black !important;
     }
 }
+
 .negrita {
     font-weight: bold;
 }

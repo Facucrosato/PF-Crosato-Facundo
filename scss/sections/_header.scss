@@ -15,11 +15,12 @@
 
     }
 }
-.nav-item{
-    &:hover{
-        
+
+.nav-item {
+    &:hover {
+
         text-decoration: underline;
         transform: scale(1.04);
-        
+
     }
 }
